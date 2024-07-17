@@ -194,8 +194,59 @@ main { overflow: hidden;}
     color: var(--grayish-blue);
     text-align: center;
     font-size: 15px;
+    line-height: 1.7;
     margin-bottom: 30px;
     padding: 0 20px;
 }
 
 
+/* ----------------------------- */
+            /* #SERVICES */
+/* ---------------------------- */
+
+.service {
+   padding: 60px var(--px);
+   background: var(--light-grayish-blue);
+}
+
+.section-title{
+    color: var(--dark-blue);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    color: var(--grayish-blue);
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-card-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.service-card { text-align: center;}
+
+.service-card .card-icon {
+   margin: auto; 
+   margin-bottom: 30px; 
+}
+
+.service-card card-title {
+    color: var(--dark-blue);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.service-card .card-text {
+    font-size: 15px;
+    color: var(--grayish-blue);
+    line-height: 1.7;
+}
